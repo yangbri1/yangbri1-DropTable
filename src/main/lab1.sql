@@ -1,0 +1,12 @@
+-- To remove a table from our database, we use the DROP command as follows:
+--      DROP TABLE table_name;
+-- If we are not sure if the table already exists, we can use the IF EXISTS clause to avoid
+-- a SQL error in the event that the table has already been dropped:
+--      DROP TABLE IF EXISTS table_name
+-- Let's say that some table already exists called 'song':
+-- | title            | artist       |
+-- |------------------|--------------|
+-- | Let it be        | Beatles      |
+-- | Hotel California | Eagles       |
+-- | Kashmir          | Led Zeppelin |
+-- TODO: Create a SQL statement below that drops the Song table.
